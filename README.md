@@ -9,7 +9,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Environments and Technologies Used</h2>
 
-- Microsoft Azure (Virtual Machines/Compute)
+- Microsoft Azure (Virtual Machines)
 - Remote Desktop
 - Internet Information Services (IIS)
 
@@ -33,9 +33,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Installation Steps</h2>
 
 
-1.) The first thing you are going to want to do is create a virtual machine by going to https://portal.azure.com/. Setup your virtual machine with Windows 10 Pro, version 22H2. Note, you will want to create a virtual machine with atleast 2 vcpus and 16 gbs of memory.
+1.) The first step you are going to want to do is create a virtual machine. Go to https://portal.azure.com/. Setup your virtual machine with Windows 10 Pro, version 22H2. Note, you will want to create a virtual machine with atleast 2 vcpus and 16 gbs of memory. it helps everything
 
-2.) Once you have created your virtual machine you will want to conncet to it by using the public ip address the vm is setup with. You will connect using the remote desktop connection app. 
+2.) Once you have created your virtual machine you will conncet to it by using the public ip address the vm (virtualmachine) is setup with. You will connect using the remote desktop connection app. 
 </p>
 <br />
 
@@ -48,7 +48,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <p>
   
-3.) Once you have connected to your virtual machine you will want to go to your control panel. From the control panel open up programs. Select, Turn Windows features on and off.
+3.) Once you have connected to your Virtual Machine you will want to go to your control panel. From the control panel open up programs. Select, Turn Windows features on and off.
 
 <p>
 <img src="https://imgur.com/fGXMpx4.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
@@ -75,7 +75,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <p>
   
-***NOTE*** Make sure all Common HTTP Features are checked.
+*NOTE* Make sure all Common HTTP Features are checked.
  
  To make sure the IIS is installed / enabled go to a browser of your choice and search for 127.0.0.1 
   It should look something like this. 
