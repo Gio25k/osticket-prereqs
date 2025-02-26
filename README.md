@@ -97,7 +97,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   
 8.) From the Installation Files, download PHP 7.3.8 (php-7.3.88-nts-Win32-VC15-x866.zip) and unzip the contents into C:\PHP
   
-  !! ATTENTION !!
+  ATTENTION
 If this appears, choose to “Keep” the file:
   
 <p>
